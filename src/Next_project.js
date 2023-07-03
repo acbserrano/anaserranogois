@@ -8,8 +8,13 @@ export default function Next_project() {
       <div class="image_5">
         <img src={img_Next_project} alt="Next_project" className="image__img" />
         <div class="image__overlay">
-          <div class="image__title">React</div>
-          <div class="image__description">Bootstrap</div>
+          <div class="image__description">
+            <ul>
+              <li>HTML CSS JS</li>
+              <li>API</li>
+              <li>Bootstrap</li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
