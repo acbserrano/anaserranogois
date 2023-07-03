@@ -36,12 +36,12 @@
   cursor: pointer;
 }
 
-.image__title {
-  font-size: 50px;
-  font-weight: 500;
+ul {
+  list-style: none;
+  padding-left: 0;
 }
 
 .image__description {
-  font-size: 50px;
+  font-size: 30px;
   font-weight: 500;
 }
