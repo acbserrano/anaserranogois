@@ -52,6 +52,7 @@ h2 {
   align-items: center;
   padding-top: 50px;
   padding-bottom: 50px;
+  padding-left: 150px;
 }
 
 .project_2 {
@@ -81,7 +82,7 @@ h2 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 20px;
+  padding-top: 10px;
   padding-right: 100px;
 }
 
@@ -97,4 +98,8 @@ footer {
   font-family: "Cormorant Garamond", serif;
   color: black;
   padding-bottom: 30px;
+}
+
+a {
+  color: black;
 }
