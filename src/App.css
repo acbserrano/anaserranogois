@@ -19,18 +19,31 @@
   padding-top: 100px;
 }
 
+a {
+  margin-right: 20px;
+}
+
 h1 {
   font-size: 120px;
   text-align: left;
-  padding-top: 500px;
+  padding-top: 230px;
 }
 
 h2 {
-  font-size: 3em;
+  font-size: 50px;
   font-family: "Cormorant Garamond", serif;
   font-weight: 400;
   font-style: italic;
   text-align: right;
+}
+
+p {
+  font-size: 25px;
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 400;
+  text-align: left;
+  padding-top: 200px;
+  line-height: 30px;
 }
 
 .App-link {
@@ -39,20 +52,13 @@ h2 {
   line-height: 30px;
 }
 
-.links {
-  display: flex;
-  flex-direction: column;
-
-  align-items: flex-end;
-}
-
 .project_1 {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding-top: 50px;
   padding-bottom: 50px;
-  padding-left: 150px;
+  padding-left: 0px;
 }
 
 .project_2 {
@@ -60,7 +66,7 @@ h2 {
   flex-direction: column;
   align-items: center;
   padding-bottom: 50px;
-  padding-left: 100px;
+  padding-left: 50px;
 }
 
 .project_3 {
@@ -74,7 +80,7 @@ h2 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-right: 100px;
+  padding-right: 20px;
   padding-top: 50px;
 }
 
@@ -82,7 +88,7 @@ h2 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 10px;
+  padding-top: 5px;
   padding-right: 100px;
 }
 
@@ -100,6 +106,25 @@ footer {
   padding-bottom: 30px;
 }
 
-a {
-  color: black;
+@media (max-width: 768px) {
+  h1 {
+    font-size: 50px;
+    text-align: left;
+    padding-top: 150px;
+  }
+
+  h2 {
+    font-size: 40px;
+    text-align: left;
+  }
+
+  p {
+    text-align: center;
+    padding-bottom: 100px;
+  }
+
+  .name_sites {
+    display: flex;
+    flex-direction: column;
+  }
 }

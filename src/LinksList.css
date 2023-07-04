@@ -1,0 +1,9 @@
+a {
+  color: black;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
