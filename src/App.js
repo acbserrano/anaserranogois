@@ -12,33 +12,6 @@ function App() {
     <div className="App-background">
       <div className="container">
         <div className="App">
-          <div className="App-header">
-            <h1>Ana Serrano Góis</h1>
-            <h2>front-end developer</h2>
-          </div>
-
-          <div className="row ">
-            <div className="project_1 col-lg-4">
-              <ReactAddOn />
-            </div>
-            <div className="project_2 col-lg-4">
-              <ReactProject />
-            </div>
-            <div className="project_3 col-lg-4">
-              <BasicsAddOn />
-            </div>
-          </div>
-          <div className="row ">
-            <div className="project_4 col-lg-4">
-              <ResponsiveAddOn />
-            </div>
-            <div className="project_5 col-lg-4">
-              <NextProject />
-            </div>
-            <div className="project_6 col-lg-4">
-              <ResponsiveProject />
-            </div>
-          </div>
           <div className="links">
             <a
               className="App-link"
@@ -65,6 +38,42 @@ function App() {
               GitHub
             </a>
           </div>
+          <div className="App-header">
+            <h1>Ana Serrano Góis</h1>
+            <h2>front-end developer</h2>
+          </div>
+
+          <div className="row section">
+            <div className="project_1 col-lg-4">
+              <ReactAddOn />
+            </div>
+            <div className="project_2 col-lg-4">
+              <ReactProject />
+            </div>
+            <div className="project_3 col-lg-4">
+              <BasicsAddOn />
+            </div>
+          </div>
+          <div className="row ">
+            <div className="project_4 col-lg-4">
+              <ResponsiveAddOn />
+            </div>
+            <div className="project_5 col-lg-4">
+              <NextProject />
+            </div>
+            <div className="project_6 col-lg-4">
+              <ResponsiveProject />
+            </div>
+          </div>
+          <footer>
+            <a
+              href="https://github.com/acbserrano/anaserranogois"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Coded by Ana Góis
+            </a>
+          </footer>
         </div>
       </div>
     </div>
