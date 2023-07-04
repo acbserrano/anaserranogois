@@ -19,14 +19,14 @@ function App() {
             <h2>front-end developer</h2>
 
             <p>
-              architect/photographer with experience in building refurbishment,
-              interior design, architectural photography and graphic design{" "}
+              Architect/photographer with experience in building refurbishment,
+              interior design, architectural photography and graphic design.{" "}
               <br />
-              looking for an opportunity to work and explore web development
+              Looking for an opportunity to work and explore web development.
               <br />
-              very happy when swimming, reading, paiting and traveling
+              Very happy when swimming, reading, paiting and traveling.
               <br />
-              founder of{" "}
+              Founder of:{" "}
               <span className="name_sites">
                 <a
                   href="https://www.estudiocabo.com"
