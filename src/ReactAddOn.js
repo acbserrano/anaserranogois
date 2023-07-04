@@ -1,8 +1,8 @@
 import React from "react";
 import img_React_Add_On from "./img_React_Add_On.png";
-import "./React_Add_On.css";
+import "./ReactAddOn.css";
 
-export default function React_Add_On() {
+export default function ReactAddOn() {
   return (
     <div>
       <div className="image_1">

@@ -1,8 +1,8 @@
 import React from "react";
 import img_Next_project from "./img_Next_project.png";
-import "./Next_project.css";
+import "./NextProject.css";
 
-export default function Next_project() {
+export default function NextProject() {
   return (
     <div>
       <div class="image_5">

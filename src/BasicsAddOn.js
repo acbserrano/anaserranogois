@@ -1,23 +1,20 @@
 import React from "react";
-import img_React_project from "./img_React_project.png";
-import "./React_project.css";
+import img_Basics_Add_On from "./img_Basics_Add_On.png";
+import "./BasicsAddOn.css";
 
-export default function React_project() {
+export default function BasicsAddOn() {
   return (
     <div>
-      <div class="image_2">
+      <div class="image_3">
         <img
-          src={img_React_project}
-          alt="React_Add_On"
+          src={img_Basics_Add_On}
+          alt="Basics_Add_On"
           className="image__img"
         />
         <div class="image__overlay">
           <div class="image__description">
             <ul>
-              <li>React</li>
               <li>HTML CSS JS</li>
-              <li>API</li>
-              <li>Bootstrap</li>
             </ul>
           </div>
         </div>

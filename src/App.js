@@ -1,11 +1,11 @@
 import "./App.css";
 
-import React_Add_On from "./React_Add_On";
-import React_project from "./React_project";
-import Basics_Add_On from "./Basics_Add_On";
-import Responsive_Add_On from "./Responsive_Add_On";
-import Next_project from "./Next_project";
-import Responsive_project from "./Responsive_project";
+import ReactAddOn from "./ReactAddOn";
+import ReactProject from "./ReactProject";
+import BasicsAddOn from "./BasicsAddOn";
+import ResponsiveAddOn from "./ResponsiveAddOn";
+import NextProject from "./NextProject";
+import ResponsiveProject from "./ResponsiveProject";
 
 function App() {
   return (
@@ -13,30 +13,30 @@ function App() {
       <div className="container">
         <div className="App">
           <div className="App-header">
-            <h1>Ana Serrano Góiss</h1>
+            <h1>Ana Serrano Góis</h1>
             <h2>front-end developer</h2>
           </div>
 
           <div className="row ">
             <div className="project_1 col-lg-4">
-              <React_Add_On />
+              <ReactAddOn />
             </div>
             <div className="project_2 col-lg-4">
-              <React_project />
+              <ReactProject />
             </div>
             <div className="project_3 col-lg-4">
-              <Basics_Add_On />
+              <BasicsAddOn />
             </div>
           </div>
           <div className="row ">
             <div className="project_4 col-lg-4">
-              <Responsive_Add_On />
+              <ResponsiveAddOn />
             </div>
             <div className="project_5 col-lg-4">
-              <Next_project />
+              <NextProject />
             </div>
             <div className="project_6 col-lg-4">
-              <Responsive_project />
+              <ResponsiveProject />
             </div>
           </div>
           <div className="links">

@@ -1,8 +1,8 @@
 import React from "react";
 import img_Responsive_Add_On from "./img_Responsive_Add_On.png";
-import "./Responsive_Add_On.css";
+import "./ResponsiveAddOn.css";
 
-export default function Responsive_Add_On() {
+export default function ResponsiveAddOn() {
   return (
     <div>
       <div class="image_4">
