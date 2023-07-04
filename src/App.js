@@ -24,7 +24,7 @@ function App() {
               <br />
               Looking for an opportunity to work and explore web development.
               <br />
-              Very happy when swimming, reading, paiting and traveling.
+              Very happy when swimming, reading, painting and traveling.
               <br />
               Founder of:{" "}
               <span className="name_sites">
